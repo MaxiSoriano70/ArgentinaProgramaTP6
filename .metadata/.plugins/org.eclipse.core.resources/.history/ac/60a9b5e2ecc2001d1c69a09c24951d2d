@@ -1,0 +1,16 @@
+
+public class TestCalculadora {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Calculadora calculadora=new Calculadora();
+		double eje1=calculadora.multiplicar(80, 3);
+		System.out.println("El resultado de multiplicar 80 por 3 da 240: "+eje1);
+		
+		double aux=calculadora.sumar(150, 180);
+		double eje2=calculadora.dividir(aux, 3);
+		System.out.println("El resultado de sumar 150 y 180, dividido por 3, da 110: "+eje2);
+		
+	}
+
+}

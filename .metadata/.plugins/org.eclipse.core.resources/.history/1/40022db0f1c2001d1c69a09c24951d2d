@@ -1,0 +1,26 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class CalculadoraTest {
+	private Calculadora calculadora;
+
+	@BeforeEach
+	public void serUp() {
+		calculadora=new Calculadora();
+	}
+	
+	@Test
+	void testOne() {
+		//El resultado de multiplicar 80 por 3 da 240
+		double eje1=calculadora.multiplicar(80, 3);
+		assertTrue(eje1==240);
+	}
+	
+	@Test
+	void testTwo(){
+		
+	}
+
+}
